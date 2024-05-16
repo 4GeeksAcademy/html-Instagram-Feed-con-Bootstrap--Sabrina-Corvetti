@@ -26,7 +26,8 @@
                 </a>
                 <div class="d-flex">
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create new post</button>
+                    <button type="button" class="btn btn-success me-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create new post</button>
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -48,248 +49,287 @@
     </nav>
 
     <!-- Modal -->
-    
-    
+
+
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Create new post</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="message-text" class="col-form-label">Caption:</label>
-                <textarea class="form-control" id="message-text" placeholder="add caption of your post here" aria-label="caption" aria-describedby="caption-addon"></textarea>
-              </div>
-              <div class="icons mb-2 m-2">
-              <button type="button" class="btn btn-outline-secondary ms-3"><i class="bi bi-camera"></i></button>
-              <button type="button" class="btn btn-outline-secondary ms-1"><i class="bi bi-geo-fill"></i></button>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Create new post</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Caption:</label>
+                            <textarea class="form-control" id="message-text" placeholder="add caption of your post here"
+                                aria-label="caption" aria-describedby="caption-addon"></textarea>
+                        </div>
+                        <div class="icons mb-2 m-2">
+                            <button type="button" class="btn btn-outline-secondary ms-3"><i
+                                    class="bi bi-camera"></i></button>
+                            <button type="button" class="btn btn-outline-secondary ms-1"><i
+                                    class="bi bi-geo-fill"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Send message</button>
+                </div>
             </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-success">Send message</button>
-          </div>
         </div>
-      </div>
     </div>
 
 
     <div class="tabs">
-    <ul class="nav nav-tabs d-flex justify-content-center gap-4 mt-3 mb-3" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i
-                    class="bi bi-grid-3x3"></i></button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i
-                    class="bi bi-square"></i></button>
-        </li>
+        <ul class="nav nav-tabs d-flex justify-content-center gap-4 mt-3 mb-3" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i
+                        class="bi bi-grid-3x3"></i></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i
+                        class="bi bi-square"></i></button>
+            </li>
 
-    </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="nav-home-tab"
-            tabindex="0">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class=" col-sm-12 col-md-6 col-xl-4  p-1">
-                        <div class="ratio ratio-1x1">
-                            <img class="img-fluid"
-                                src="https://hips.hearstapps.com/hmg-prod/images/la-noche-estrellada1-1586872678.jpg"
-                                alt="imagen1" class="img-fluid object-fit-cover" />
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="nav-home-tab"
+                tabindex="0">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class=" col-sm-12 col-md-6 col-xl-4  p-1">
+                            <div class="ratio ratio-1x1">
+                                <img class="img-fluid"
+                                    src="https://hips.hearstapps.com/hmg-prod/images/la-noche-estrellada1-1586872678.jpg"
+                                    alt="imagen1" class="img-fluid object-fit-cover" />
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-sm-12 col-md-6 col-xl-4  p-1">
-                        <div class="ratio ratio-1x1">
-                            <img class="img-fluid"
-                                src="https://hips.hearstapps.com/hmg-prod/images/tarde-de-domingo-seurat-6439026f4f7fb.jpg?resize=980:*"
-                                alt="imagen2" class="img-fluid object-fit-cover" />
+                        <div class="col-sm-12 col-md-6 col-xl-4  p-1">
+                            <div class="ratio ratio-1x1">
+                                <img class="img-fluid"
+                                    src="https://hips.hearstapps.com/hmg-prod/images/tarde-de-domingo-seurat-6439026f4f7fb.jpg?resize=980:*"
+                                    alt="imagen2" class="img-fluid object-fit-cover" />
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-sm-12 col-md-6 col-xl-4  p-1">
-                        <div class="ratio ratio-1x1">
-                            <img class="img-fluid"
-                                src="https://hips.hearstapps.com/hmg-prod/images/el-beso-1639396100.jpeg?resize=980:*"
-                                alt="imagen3" class="img-fluid object-fit-cover" />
+                        <div class="col-sm-12 col-md-6 col-xl-4  p-1">
+                            <div class="ratio ratio-1x1">
+                                <img class="img-fluid"
+                                    src="https://hips.hearstapps.com/hmg-prod/images/el-beso-1639396100.jpeg?resize=980:*"
+                                    alt="imagen3" class="img-fluid object-fit-cover" />
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-sm-12 col-md-6 col-xl-4 p-1">
-                        <div class="ratio ratio-1x1">
-                            <img class="img-fluid"
-                                src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-77248413-1639396642.jpg?resize=980:*"
-                                alt="imagen4" class="img-fluid object-fit-cover" />
+                        <div class="col-sm-12 col-md-6 col-xl-4 p-1">
+                            <div class="ratio ratio-1x1">
+                                <img class="img-fluid"
+                                    src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-77248413-1639396642.jpg?resize=980:*"
+                                    alt="imagen4" class="img-fluid object-fit-cover" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-xl-4 p-1">
-                        <div class="ratio ratio-1x1">
-                            <img class="img-fluid"
-                                src="https://hips.hearstapps.com/hmg-prod/images/el-almuerzo-de-los-remeros-1639395809.jpg?resize=980:*"
-                                alt="imagen4" class="img-fluid object-fit-cover" />
+                        <div class="col-sm-12 col-md-6 col-xl-4 p-1">
+                            <div class="ratio ratio-1x1">
+                                <img class="img-fluid"
+                                    src="https://hips.hearstapps.com/hmg-prod/images/el-almuerzo-de-los-remeros-1639395809.jpg?resize=980:*"
+                                    alt="imagen4" class="img-fluid object-fit-cover" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-xl-4  p-1">
-                        <div class="ratio ratio-1x1">
-                            <img class="img-fluid"
-                                src="https://hips.hearstapps.com/hmg-prod/images/el-nacimiento-de-venus-1639395197.jpeg?resize=980:*"
-                                alt="imagen4" class="img-fluid object-fit-cover" />
+                        <div class="col-sm-12 col-md-6 col-xl-4  p-1">
+                            <div class="ratio ratio-1x1">
+                                <img class="img-fluid"
+                                    src="https://hips.hearstapps.com/hmg-prod/images/el-nacimiento-de-venus-1639395197.jpeg?resize=980:*"
+                                    alt="imagen4" class="img-fluid object-fit-cover" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-xl-4  p-1">
-                        <div class="ratio ratio-1x1">
-                            <img class="img-fluid" src="https://hips.hearstapps.com/hmg-prod/images/la-muerte-de-marat-1639394168.jpeg?resize=980:*
+                        <div class="col-sm-12 col-md-6 col-xl-4  p-1">
+                            <div class="ratio ratio-1x1">
+                                <img class="img-fluid" src="https://hips.hearstapps.com/hmg-prod/images/la-muerte-de-marat-1639394168.jpeg?resize=980:*
                             " alt="imagen4" class="img-fluid object-fit-cover" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-xl-4  p-1">
-                        <div class="ratio ratio-1x1">
-                            <img class="img-fluid"
-                                src="https://hips.hearstapps.com/hmg-prod/images/elle-escuela-de-atenas-1-1586849897.jpg?resize=980:*"
-                                alt="imagen4" class="img-fluid object-fit-cover" />
+                        <div class="col-sm-12 col-md-6 col-xl-4  p-1">
+                            <div class="ratio ratio-1x1">
+                                <img class="img-fluid"
+                                    src="https://hips.hearstapps.com/hmg-prod/images/elle-escuela-de-atenas-1-1586849897.jpg?resize=980:*"
+                                    alt="imagen4" class="img-fluid object-fit-cover" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    
 
-        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-            <div class="d-flex justify-content-center pt-4">
-                <div class="card mb-2" style="width: 500px">
-                    <div class="card-header bg-transparent border-success d-flex justify-content-between fs-4"> <b>Vincent Van Gogh</b>
-                        <p class="text-black-50 fs-5"> 01/05 </p>
-                    </div>
-                    <img src="https://hips.hearstapps.com/hmg-prod/images/la-noche-estrellada1-1586872678.jpg
-                    "
-                        class=" img-fluid object-fit-contain" style="height: 450px width: 400px;" alt="Imagen 1">
-                    <div class="card-body">
-                        <h5 class="card-title">750 likes</h5>
-                        <p class="card-text">La noche estrellada</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 days before
-                                ago</small></p>
-                    </div>
-                  
+
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div class="d-flex justify-content-center pt-4">
                     <div class="card mb-2" style="width: 500px">
-                        <div class="card-header bg-transparent border-success d-flex justify-content-between fs-4"> <b>George Seurat</b>
+                        <div class="card-header bg-transparent border-success d-flex justify-content-between fs-4">
+                            <b>Vincent Van Gogh</b>
                             <p class="text-black-50 fs-5"> 01/05 </p>
                         </div>
-                        <img src="https://hips.hearstapps.com/hmg-prod/images/tarde-de-domingo-seurat-6439026f4f7fb.jpg?resize=980:*
-                        ">
-                            <class=" img-fluid object-fit-contain" style="height: 450px width: 400px;" alt="Imagen 1">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/la-noche-estrellada1-1586872678.jpg
+                    " class=" img-fluid object-fit-contain" style="height: 450px width; 400px;" alt="Imagen 1">
                         <div class="card-body">
-                            <h5 class="card-title">250 likes</h5>
-                            <p class="card-text">Tarde de domingo en la isla de la Grande Jatte</p>
+                            <h5 class="card-title">750 likes</h5>
+                            <p class="card-text">La noche estrellada</p>
                             <p class="card-text"><small class="text-body-secondary">Last updated 3 days before
                                     ago</small></p>
                         </div>
-                    
 
-                       
                         <div class="card mb-2" style="width: 500px">
-                            <div class="card-header bg-transparent border-success d-flex justify-content-between fs-4"> <b>Gustav Klimt</b>
+                            <div class="card-header bg-transparent border-success d-flex justify-content-between fs-4">
+                                <b>George Seurat</b>
                                 <p class="text-black-50 fs-5"> 01/05 </p>
                             </div>
-                            <img src="https://hips.hearstapps.com/hmg-prod/images/el-beso-1639396100.jpeg?resize=980:*
-                            ">
-                               <class=" img-fluid object-fit-contain" style="height: 450px width: 400px;" alt="Imagen 1">
-                            <div class="card-body">
-                                <h5 class="card-title">750 likes</h5>
-                                <p class="card-text">El beso</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 days before
-                                        ago</small></p>
-                            </div>
-                        
-
-                            <div class="card mb-2" style="width: 500px">
-                                <div class="card-header bg-transparent border-success d-flex justify-content-between fs-4"> <b>Andy Warhol</b>
-                                    <p class="text-black-50 fs-5"> 01/05 </p>
-                                </div>
-                                <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-77248413-1639396642.jpg?resize=980:*
-                                ">
-                                    <class=" img-fluid object-fit-contain" style="height: 450px width: 400px;" alt="Imagen 1">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/tarde-de-domingo-seurat-6439026f4f7fb.jpg?resize=980:*
+                        ">
+                            <class=" img-fluid object-fit-contain style="height: 450px width; 400px;" alt="Imagen 1">
                                 <div class="card-body">
                                     <h5 class="card-title">250 likes</h5>
-                                    <p class="card-text">Marylin Monroe</p>
+                                    <p class="card-text">Tarde de domingo en la isla de la Grande Jatte</p>
                                     <p class="card-text"><small class="text-body-secondary">Last updated 3 days before
                                             ago</small></p>
                                 </div>
-                          
+
+
 
                                 <div class="card mb-2" style="width: 500px">
-                                    <div class="card-header bg-transparent border-success d-flex justify-content-between fs-4"> <b>Pierre-Auguste Renoir</b>
+                                    <div
+                                        class="card-header bg-transparent border-success d-flex justify-content-between fs-4">
+                                        <b>Gustav Klimt</b>
                                         <p class="text-black-50 fs-5"> 01/05 </p>
                                     </div>
-                                    <img src="https://hips.hearstapps.com/hmg-prod/images/el-almuerzo-de-los-remeros-1639395809.jpg?resize=980:*
-                                    ">
-                                        <blockquote=" img-fluid object-fit-contain " style="height: 450px width: 400px;" alt="Imagen 1">
-                                    <div class="card-body">
-                                        <h5 class="card-title">250 likes</h5>
-                                        <p class="card-text">El almuerzo de los remeros</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 days before
-                                                ago</small></p>
-                                    </div>
-                            
-                                   
-                                    <div class="card mb-2" style="width: 500px">
-                                        <div class="card-header bg-transparent border-success d-flex justify-content-between fs-4"> <b>Sandro Botticelli</b>
-                                            <p class="text-black-50 fs-5"> 01/05 </p>
-                                        </div>
-                                        <img src="https://hips.hearstapps.com/hmg-prod/images/el-nacimiento-de-venus-1639395197.jpeg?resize=980:*">
-                                            <class=" img-fluid object-fit-contain" style="height: 450px width: 400px;" alt="Imagen 1">
+                                    <img src="https://hips.hearstapps.com/hmg-prod/images/el-beso-1639396100.jpeg?resize=980:*
+                            ">
+                                    <class=" img-fluid object-fit-contain style="height: 450px width; 400px;"
+                                        alt="Imagen 1">
                                         <div class="card-body">
-                                            <h5 class="card-title">250 likes</h5>
-                                            <p class="card-text">El nacimiento de Venus</p>
-                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 days before
+                                            <h5 class="card-title">750 likes</h5>
+                                            <p class="card-text">El beso</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 days
+                                                    before
                                                     ago</small></p>
                                         </div>
-                                   
-                                   
+
+
                                         <div class="card mb-2" style="width: 500px">
-                                            <div class="card-header bg-transparent border-success d-flex justify-content-between fs-4"> <b>Jacques-Louis David</b>
+                                            <div
+                                                class="card-header bg-transparent border-success d-flex justify-content-between fs-4">
+                                                <b>Andy Warhol</b>
                                                 <p class="text-black-50 fs-5"> 01/05 </p>
                                             </div>
-                                            <img src="https://hips.hearstapps.com/hmg-prod/images/la-muerte-de-marat-1639394168.jpeg?resize=980:*
-                                            ">
-                                                <class=" img-fluid object-fit-contain" style="height: 450px width: 400px;" alt="Imagen 1">
-                                            <div class="card-body">
-                                                <h5 class="card-title">250 likes</h5>
-                                                <p class="card-text">La muerte de Marat</p>
-                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 days before
-                                                        ago</small></p>
-                                            </div>
-                                        
-                                           <div class="d-flex justify-content-center pt-4"></div>    
-                                            <div class="card mb-2" style="width: 500px">
-                                                <div class="card-header bg-transparent border-success d-flex justify-content-between fs-4"> <b>Rafael</b>
-                                                    <p class="text-black-50 fs-5"> 01/05 </p>
-                                                </div>
-                                                <img src="https://hips.hearstapps.com/hmg-prod/images/elle-escuela-de-atenas-1-1586849897.jpg?resize=980:*
-                                                ">
-                                                    <class=" img-fluid object-fit-contain" style="height: 450px width: 400px;" alt="Imagen 1">
+                                            <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-77248413-1639396642.jpg?resize=980:*
+                                ">
+                                            <class=" img-fluid object-fit-contain style="height: 450px width; 400px;"
+                                                alt="Imagen 1">
                                                 <div class="card-body">
                                                     <h5 class="card-title">250 likes</h5>
-                                                    <p class="card-text">La escuela de Atenas</p>
-                                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 days before
+                                                    <p class="card-text">Marylin Monroe</p>
+                                                    <p class="card-text"><small class="text-body-secondary">Last updated
+                                                            3 days before
                                                             ago</small></p>
-                                                </div>  
+                                                </div>
 
-                                            </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+                                                <div class="card mb-2" style="width: 500px">
+                                                    <div
+                                                        class="card-header bg-transparent border-success d-flex justify-content-between fs-4">
+                                                        <b>Pierre-Auguste Renoir</b>
+                                                        <p class="text-black-50 fs-5"> 01/05 </p>
+                                                    </div>
+                                                    <img src="https://hips.hearstapps.com/hmg-prod/images/el-almuerzo-de-los-remeros-1639395809.jpg?resize=980:*
+                                    ">
+                                                    <blockquote=" img-fluid object-fit-contain
+                                                        style="height: 450px width; 400px;" alt="Imagen 1">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">250 likes</h5>
+                                                            <p class="card-text">El almuerzo de los remeros</p>
+                                                            <p class="card-text"><small class="text-body-secondary">Last
+                                                                    updated 3 days before
+                                                                    ago</small></p>
+                                                        </div>
+
+
+                                                        <div class="card mb-2" style="width: 500px">
+                                                            <div
+                                                                class="card-header bg-transparent border-success d-flex justify-content-between fs-4">
+                                                                <b>Sandro Botticelli</b>
+                                                                <p class="text-black-50 fs-5"> 01/05 </p>
+                                                            </div>
+                                                            <img
+                                                                src="https://hips.hearstapps.com/hmg-prod/images/el-nacimiento-de-venus-1639395197.jpeg?resize=980:*">
+                                                            <class=" img-fluid object-fit-contain
+                                                                style="height: 450px width; 400px;" alt="Imagen 1">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title">250 likes</h5>
+                                                                    <p class="card-text">El nacimiento de Venus</p>
+                                                                    <p class="card-text"><small
+                                                                            class="text-body-secondary">Last updated 3
+                                                                            days before
+                                                                            ago</small></p>
+                                                                </div>
+
+
+                                                                <div class="card mb-2" style="width: 500px">
+                                                                    <div
+                                                                        class="card-header bg-transparent border-success d-flex justify-content-between fs-4">
+                                                                        <b>Jacques-Louis David</b>
+                                                                        <p class="text-black-50 fs-5"> 01/05 </p>
+                                                                    </div>
+                                                                    <img src="https://hips.hearstapps.com/hmg-prod/images/la-muerte-de-marat-1639394168.jpeg?resize=980:*
+                                            ">
+                                                                    <class=" img-fluid object-fit-contain
+                                                                        style="height: 450px width; 400px;"
+                                                                        alt="Imagen 1">
+                                                                        <div class="card-body">
+                                                                            <h5 class="card-title">250 likes</h5>
+                                                                            <p class="card-text">La muerte de Marat</p>
+                                                                            <p class="card-text"><small
+                                                                                    class="text-body-secondary">Last
+                                                                                    updated 3 days before
+                                                                                    ago</small></p>
+                                                                        </div>
+
+                                                                        <div class="d-flex justify-content-center pt-4">
+                                                                        </div>
+                                                                        <div class="card mb-2" style="width: 500px">
+                                                                            <div
+                                                                                class="card-header bg-transparent border-success d-flex justify-content-between fs-4">
+                                                                                <b>Rafael</b>
+                                                                                <p class="text-black-50 fs-5"> 01/05
+                                                                                </p>
+                                                                            </div>
+                                                                            <img src="https://hips.hearstapps.com/hmg-prod/images/elle-escuela-de-atenas-1-1586849897.jpg?resize=980:*
+                                                ">
+                                                                            <class=" img-fluid object-fit-contain
+                                                                                style="height: 450px width; 400px;"
+                                                                                alt="Imagen 1">
+                                                                                <div class="card-body">
+                                                                                    <h5 class="card-title">250 likes
+                                                                                    </h5>
+                                                                                    <p class="card-text">La escuela de
+                                                                                        Atenas</p>
+                                                                                    <p class="card-text"><small
+                                                                                            class="text-body-secondary">Last
+                                                                                            updated 3 days before
+                                                                                            ago</small></p>
+                                                                                </div>
+
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <script
+                                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                                    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                                    crossorigin="anonymous"></script>
 </body>
 
 </html>
